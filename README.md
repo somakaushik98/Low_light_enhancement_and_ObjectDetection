@@ -1,5 +1,10 @@
 # ECE 285 UCSD - Spring'23 - Final Project
 # Low Light Enhancement And Object Detection
+
+A Project By -
+
+1) Sai Kaushik Soma - (PID A59020013)
+2) Venkata Harsha Vardhan Gangala - (PID A59019872)
 <br>
 This project presents a novel approach to enhance visibility and enable object detection in low-light and twilight scenarios. We employ the Zero-DCE method, a deep learning-based approach, to effectively enhance low-light images by improving their brightness, contrast, and color balance. By extending this technique to twilight images, we bridge the gap between low-light and twilight conditions. Additionally, we utilize the YOLOv3 object detection algorithm, pretrained on the COCO dataset, to detect objects in the enhanced twilight images. The experimental results demonstrate the effectiveness of our approach in significantly improving visibility, preserving details, and accurately detecting objects in challenging low-light and twilight scenarios. This comprehensive solution holds promise for applications in surveillance, autonomous driving, and nighttime image analysis, where accurate object detection under challenging lighting conditions is crucial.
 <br>
