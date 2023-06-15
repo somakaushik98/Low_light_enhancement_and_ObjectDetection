@@ -29,13 +29,13 @@ dark images. The dataset also includes ground truth images for evaluation purpos
  <br>
  c) The COCO (Common Objects in Context) dataset is a popular and widely used dataset for object detection and segmentation tasks in computer vision. It consists of over 200,000 labeled images with more than 80 object categories, covering various everyday objects and scenes. The dataset includes bounding box annotations for object localization, segmentation masks for pixel-level labeling, and captions for image captioning. Its comprehensive and diverse nature makes it valuable for training and evaluating models in the field of computer vision.
 
- # Zero DCE
+ # Zero DCE (Low Light Enhancement)
 
 ZERO-DCE framework is devised with Deep Curve Estimation Network (DCE-Net) that estimates a group of Light-Enhancement curves (LE-curves) that best fit the input image.It is a neural network that is designed to learn the relationship between an input low-light image and its corresponding curve parameter maps. These maps represent the best-fitting curves for the input image. The network is composed of seven convolutional layers with 32 kernels each,
 which are activated using the ReLU function. The last convolutional layer is followed by the Tanh activation function, which generates 24 parameter maps for eight iterations. Each iteration requires three parameter maps for the three color channels. The Zero DCE-Net is a lightweight network with
 symmetrical concatenation.
 
-# YOLOv3
+# YOLOv3 (Object Detection)
 
 YOLOv3, short for You Only Look Once version 3, is a popular object detection algorithm that employs a single deep neural network to achieve real-time and accurate object recognition in images and videos. It divides the input image into a grid and predicts bounding boxes and class probabilities for multiple objects within each grid cell, enabling efficient detection across the entire image. YOLOv3 employs a feature pyramid network and three detection scales to handle objects of different sizes, enhancing its ability to detect both small and large objects. Additionally, it incorporates anchor boxes to improve localization precision. With its efficient architecture and strong performance, YOLOv3 has become widely adopted for various computer vision tasks, including autonomous driving, surveillance systems, and interactive applications.
 
