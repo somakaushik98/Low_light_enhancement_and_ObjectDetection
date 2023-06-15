@@ -12,6 +12,9 @@ a) The LOL dataset is composed of 500 low-light and normal-light image pairs and
 <br>
 <br>
  b) The Exclusively Dark (ExDARK) dataset is a collection of 7,363 low-light images from very low-light environments to twilight (i.e 10 different conditions) with 12 object classes (similar to PASCAL VOC) annotated on both image class level and local object bounding boxes.
+ <br>
+ <br>
+ c) The COCO (Common Objects in Context) dataset is a popular and widely used dataset for object detection and segmentation tasks in computer vision. It consists of over 200,000 labeled images with more than 80 object categories, covering various everyday objects and scenes. The dataset includes bounding box annotations for object localization, segmentation masks for pixel-level labeling, and captions for image captioning. Its comprehensive and diverse nature makes it valuable for training and evaluating models in the field of computer vision.
 
  # Experiment
 
