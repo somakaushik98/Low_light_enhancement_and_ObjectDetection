@@ -29,6 +29,12 @@ dark images. The dataset also includes ground truth images for evaluation purpos
  <br>
  c) The COCO (Common Objects in Context) dataset is a popular and widely used dataset for object detection and segmentation tasks in computer vision. It consists of over 200,000 labeled images with more than 80 object categories, covering various everyday objects and scenes. The dataset includes bounding box annotations for object localization, segmentation masks for pixel-level labeling, and captions for image captioning. Its comprehensive and diverse nature makes it valuable for training and evaluating models in the field of computer vision.
 
+ # Zero DCE
+
+ZERO-DCE framework is devised with Deep Curve Estimation Network (DCE-Net) that estimates a group of Light-Enhancement curves (LE-curves) that best fit the input image.It is a neural network that is designed to learn the relationship between an input low-light image and its corresponding curve parameter maps. These maps represent the best-fitting curves for the input image. The network is composed of seven convolutional layers with 32 kernels each,
+which are activated using the ReLU function. The last convolutional layer is followed by the Tanh activation function, which generates 24 parameter maps for eight iterations. Each iteration requires three parameter maps for the three color channels. The Zero DCE-Net is a lightweight network with
+symmetrical concatenation.
+
  # Directory Structure
 
  1) Final_project_1.ipynb : The Jupyter Notebook consists of complete project pipeline starting from data preprocessing to final object detection after light enhancement. <br>
