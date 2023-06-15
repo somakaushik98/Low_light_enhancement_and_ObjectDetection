@@ -12,3 +12,13 @@ a) The LOL dataset is composed of 500 low-light and normal-light image pairs and
 <br>
 <br>
  b) The Exclusively Dark (ExDARK) dataset is a collection of 7,363 low-light images from very low-light environments to twilight (i.e 10 different conditions) with 12 object classes (similar to PASCAL VOC) annotated on both image class level and local object bounding boxes.
+
+ # Experiment
+
+ 1) Final_project_1.ipynb : The Jupyter Notebook consists of complete project pipeline starting from data preprocessing to final object detection after light enhancement. <br>
+ 2) app.py : A webapp built using streamlit where we developed an UI to test our model and present our results. <br>
+ 3) coco.names : It is a text file in YOLOv3 containing the names of objects the model can detect from the COCO dataset, providing labels for detected objects during inference. <br>
+ 4) lowlightenhancement.py : The python script is utilised to import the necessary functions related to low light enhancement while building our webapp.
+ 5) objectDetection.py : The python script is utilised to import the necessary functions related to object detection using yolo while building our webapp.
+ 6) yolov3.cfg : It is a configuration file in YOLO models, specifying the network architecture and parameters.
+It defines how the model is structured and operates during training and inference.
