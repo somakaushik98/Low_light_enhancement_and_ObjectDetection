@@ -43,6 +43,9 @@ ZERO-DCE framework is devised with Deep Curve Estimation Network (DCE-Net) that 
 which are activated using the ReLU function. The last convolutional layer is followed by the Tanh activation function, which generates 24 parameter maps for eight iterations. Each iteration requires three parameter maps for the three color channels. The Zero DCE-Net is a lightweight network with
 symmetrical concatenation.
 
+![download](https://github.com/somakaushik98/Low_light_enhancement_and_ObjectDetection/assets/63076797/65e168f0-7ff8-49db-bec9-253b78c69f8f)
+
+
 # YOLOv3 (Object Detection)
 
 YOLOv3, short for You Only Look Once version 3, is a popular object detection algorithm that employs a single deep neural network to achieve real-time and accurate object recognition in images and videos. It divides the input image into a grid and predicts bounding boxes and class probabilities for multiple objects within each grid cell, enabling efficient detection across the entire image. YOLOv3 employs a feature pyramid network and three detection scales to handle objects of different sizes, enhancing its ability to detect both small and large objects. Additionally, it incorporates anchor boxes to improve localization precision. With its efficient architecture and strong performance, YOLOv3 has become widely adopted for various computer vision tasks, including autonomous driving, surveillance systems, and interactive applications.
