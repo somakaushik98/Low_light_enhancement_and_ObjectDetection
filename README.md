@@ -16,7 +16,7 @@ a) The LOL dataset is composed of 500 low-light and normal-light image pairs and
  <br>
  c) The COCO (Common Objects in Context) dataset is a popular and widely used dataset for object detection and segmentation tasks in computer vision. It consists of over 200,000 labeled images with more than 80 object categories, covering various everyday objects and scenes. The dataset includes bounding box annotations for object localization, segmentation masks for pixel-level labeling, and captions for image captioning. Its comprehensive and diverse nature makes it valuable for training and evaluating models in the field of computer vision.
 
- # Experiment
+ # Directory Structure
 
  1) Final_project_1.ipynb : The Jupyter Notebook consists of complete project pipeline starting from data preprocessing to final object detection after light enhancement. <br>
  2) app.py : A webapp built using streamlit where we developed an UI to test our model and present our results. <br>
@@ -25,3 +25,8 @@ a) The LOL dataset is composed of 500 low-light and normal-light image pairs and
  5) objectDetection.py : The python script is utilised to import the necessary functions related to object detection using yolo while building our webapp.
  6) yolov3.cfg : It is a configuration file in YOLO models, specifying the network architecture and parameters.
 It defines how the model is structured and operates during training and inference.
+
+
+# Project Workflow
+
+![WhatsApp Image 2023-06-12 at 00 26 44](https://github.com/somakaushik98/Low_light_enhancement_and_ObjectDetection/assets/63076797/22698657-7888-4bff-af86-7baf1f1da884)
