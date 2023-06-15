@@ -4,8 +4,6 @@
 This project presents a novel approach to enhance visibility and enable object detection in low-light and twilight scenarios. We employ the Zero-DCE method, a deep learning-based approach, to effectively enhance low-light images by improving their brightness, contrast, and color balance. By extending this technique to twilight images, we bridge the gap between low-light and twilight conditions. Additionally, we utilize the YOLOv3 object detection algorithm, pretrained on the COCO dataset, to detect objects in the enhanced twilight images. The experimental results demonstrate the effectiveness of our approach in significantly improving visibility, preserving details, and accurately detecting objects in challenging low-light and twilight scenarios. This comprehensive solution holds promise for applications in surveillance, autonomous driving, and nighttime image analysis, where accurate object detection under challenging lighting conditions is crucial.
 <br>
 
-https://github.com/somakaushik98/Low_light_enhancement_and_ObjectDetection/assets/63076797/f5287557-e947-4448-8ab6-2de00b232093
-
 # Installation
 To install Python dependencies and modules, use
 ```bash
@@ -44,3 +42,5 @@ It defines how the model is structured and operates during training and inferenc
 2) Once the webapp is hosted locally we provide a dark input image as the input image file.
 3) Then we are prompted to choose between Denoising and Without Denoising.
 4) Finally the outputs are displayed on the UI of the webapp.
+
+https://github.com/somakaushik98/Low_light_enhancement_and_ObjectDetection/assets/63076797/f5287557-e947-4448-8ab6-2de00b232093
