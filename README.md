@@ -75,4 +75,5 @@ It defines how the model is structured and operates during training and inferenc
 
 # Demo
 
-https://github.com/somakaushik98/Low_light_enhancement_and_ObjectDetection/assets/63076797/f5287557-e947-4448-8ab6-2de00b232093
+https://github.com/somakaushik98/Low_light_enhancement_and_ObjectDetection/assets/63076797/1bf45b58-2c48-430e-9765-666ce2d7714d
+
