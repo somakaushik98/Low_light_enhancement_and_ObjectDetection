@@ -11,11 +11,20 @@ pip install -r requirements.txt
 ```
 
 # Dataset
-
-a) The LOL dataset is composed of 500 low-light and normal-light image pairs and is divided into 485 training pairs and 15 testing pairs. The low-light images contain noise produced during the photo capture process. Most of the images are indoor scenes. All the images have a resolution of 400×600. The dataset was introduced in the paper Deep Retinex Decomposition for Low-Light Enhancement.
+a) Low-Light Dataset: The Low-Light (LoL) dataset is a challenging benchmark for evaluating
+low-light image enhancement methods. It consists of 500 pairs of low-light and correspond-
+ing normal-light images, covering a diverse range of scenes and lighting conditions. The
+dataset has been used to evaluate the performance of various low-light image enhancement
+algorithms, including deep learning-based methods. Due to its realistic and challenging na-
+ture, the LoL dataset has become a popular benchmark for researchers working on low-light
+image enhancement.
 <br>
 <br>
- b) The Exclusively Dark (ExDARK) dataset is a collection of 7,363 low-light images from very low-light environments to twilight (i.e 10 different conditions) with 12 object classes (similar to PASCAL VOC) annotated on both image class level and local object bounding boxes.
+b) Dark-Face Dataset: Dark Face is a dataset containing images captured in both dark and
+normal lighting conditions. The dataset contains a total of 789 image pairs, where each pair
+consists of a dark image and a corresponding normal image. The dataset was designed to
+evaluate image enhancement algorithms that aim to improve the visibility and quality of
+dark images. The dataset also includes ground truth images for evaluation purposes.
  <br>
  <br>
  c) The COCO (Common Objects in Context) dataset is a popular and widely used dataset for object detection and segmentation tasks in computer vision. It consists of over 200,000 labeled images with more than 80 object categories, covering various everyday objects and scenes. The dataset includes bounding box annotations for object localization, segmentation masks for pixel-level labeling, and captions for image captioning. Its comprehensive and diverse nature makes it valuable for training and evaluating models in the field of computer vision.
