@@ -6,7 +6,7 @@ This project presents a novel approach to enhance visibility and enable object d
 
 https://github.com/somakaushik98/Low_light_enhancement_and_ObjectDetection/assets/63076797/f5287557-e947-4448-8ab6-2de00b232093
 
-#Dataset
+# Dataset
 
 a) The LOL dataset is composed of 500 low-light and normal-light image pairs and is divided into 485 training pairs and 15 testing pairs. The low-light images contain noise produced during the photo capture process. Most of the images are indoor scenes. All the images have a resolution of 400×600. The dataset was introduced in the paper Deep Retinex Decomposition for Low-Light Enhancement.
 <br>
