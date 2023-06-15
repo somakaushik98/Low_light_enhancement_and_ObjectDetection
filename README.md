@@ -30,3 +30,8 @@ It defines how the model is structured and operates during training and inferenc
 # Project Workflow
 
 ![WhatsApp Image 2023-06-12 at 00 26 44](https://github.com/somakaushik98/Low_light_enhancement_and_ObjectDetection/assets/63076797/22698657-7888-4bff-af86-7baf1f1da884)
+
+1) After installation of necessary libraries we run the following command.
+   ```bash
+   streamlit run app.py
+   ```
