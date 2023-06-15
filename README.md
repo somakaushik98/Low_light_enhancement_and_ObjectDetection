@@ -43,7 +43,7 @@ ZERO-DCE framework is devised with Deep Curve Estimation Network (DCE-Net) that 
 which are activated using the ReLU function. The last convolutional layer is followed by the Tanh activation function, which generates 24 parameter maps for eight iterations. Each iteration requires three parameter maps for the three color channels. The Zero DCE-Net is a lightweight network with
 symmetrical concatenation.
 
-![download](https://github.com/somakaushik98/Low_light_enhancement_and_ObjectDetection/assets/63076797/65e168f0-7ff8-49db-bec9-253b78c69f8f)
+![download](https://github.com/somakaushik98/Low_light_enhancement_and_ObjectDetection/assets/63076797/65e168f0-7ff8-49db-bec9-253b78c69f8f=800x)
 
 
 # YOLOv3 (Object Detection)
