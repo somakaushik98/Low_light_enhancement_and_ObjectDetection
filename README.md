@@ -73,7 +73,7 @@ It defines how the model is structured and operates during training and inferenc
 3) Then we are prompted to choose between Denoising and Without Denoising.
 4) Finally the outputs are displayed on the UI of the webapp.
 
-# Result 
+# Results 
 ![Untitled Diagram drawio (1)](https://github.com/somakaushik98/Low_light_enhancement_and_ObjectDetection/assets/63076797/df587ee0-9d0a-4d11-b383-0924c208dc05)
 
 # Demo
